@@ -200,11 +200,12 @@ nav {
 
 /* Hero Section */
 .hero-section {
-  min-height: calc(100vh - 100px);
+  min-height: calc(100dvh - 100px); /* Adjusts dynamically to avoid navbar overlap */
   display: flex;
   align-items: center;
   justify-content: center;
 }
+
 
 /* Hero content layout */
 .hero-content {
