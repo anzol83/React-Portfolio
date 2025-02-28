@@ -254,7 +254,7 @@ nav {
   z-index: 1;
 }
 
-/* Profile image styling */
+/* Add padding to the top of the profile image */
 .profile-hero-img {
   width: 400px;
   height: 400px;
@@ -265,6 +265,7 @@ nav {
   position: relative;
   z-index: 2;
   transition: transform 0.5s ease;
+  margin-top: 60px; /* Add margin to avoid overlap */
 }
 
 .profile-hero-img:hover {
@@ -1133,6 +1134,7 @@ nav {
   .profile-hero-img {
     width: 250px;
     height: 250px;
+    margin-top: 80px;
   }
   
   .hero-description {
