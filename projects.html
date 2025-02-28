@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Anzol Neupane Portfolio</title>
+    <title>Projects - Anzol Neupane</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
@@ -11,19 +11,17 @@
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
 </head>
 <body>
-    <!-- Nav Container Section -->
     <nav>
         <div class="nav-content">
             <div class="nav-left">
                 <img src="assets/AZ-LOGO.webp" alt="profile" class="profile-img">
             </div>
             <div class="menu">
-                <!-- <a href="#" class="active">Home</a> -->
-                <a href="#" class="active">Home</a>
+                <a href="index.html">Home</a>
                 <a href="about.html">About</a>
-                <a href="projects.html">Projects</a>
+                <a href="#" class="active">Projects</a>
                 <a href="blogs.html">Blogs</a>
-                <a href="#contact">Contact</a>
+                <a href="index.html#contact">Contact</a>
             </div>
             <div class="icons">
                 <a href="https://github.com/anzol83" target="_blank" rel="noopener noreferrer">
@@ -40,62 +38,15 @@
     </nav>
 
     <div class="mobile-menu">
-        <a href="#" class="mobile-link active">Home</a>
+        <a href="index.html" class="mobile-link">Home</a>
         <a href="about.html" class="mobile-link">About</a>
-        <a href="projects.html" class="mobile-link">Projects</a>
-        <a href="#blogs" class="mobile-link">Blogs</a>
-        <a href="#contact" class="mobile-link">Contact</a>
+        <a href="#" class="mobile-link active">Projects</a>
+        <a href="/#blogs" class="mobile-link">Blogs</a>
+        <a href="index.html#contact" class="mobile-link">Contact</a>
     </div>
 
-    <!-- Hero Section -->
     <main class="content">
-        <section class="hero-section">
-            <div class="hero-content">
-                <div class="hero-text">
-                    <h1 class="name">Anzol Neupane</h1>
-                    <span id="typed-text"></span> <br>
-                    <p class="hero-description">Creative developer crafting digital experiences that merge innovation with functionality.</p>
-                    <div class="hero-buttons">
-                        <a href="about.html" class="about-btn">About Me</a>
-                        <a href="assets/angelneupane-resume.pdf" class="resume-btn">
-                            <i class="fas fa-download"></i>
-                            Resume
-                        </a>
-                    </div>
-                </div>
-                <div class="hero-image">
-                    <div class="image-glow"></div>
-                    <img src="assets/profile-image.jpg" alt="Anzol Neupane" class="profile-hero-img">
-                </div>
-            </div>
-        </section>
-
-        <!-- Work Experience -->
-        <div class="work-experience">
-                    <h2 class="index-work">Work Experience</h2>
-                    <div class="timeline">
-                        <div class="timeline-item">
-                            <div class="timeline-dot"></div>
-                            <div class="timeline-content">
-                                <div class="timeline-date">2024 - 2025</div>
-                                <h3>Web Developer Intern</h3>
-                                <h4>Rotary Club Of Padstow</h4>
-                            </div>
-                        </div>
-
-                        <div class="timeline-item">
-                            <div class="timeline-dot"></div>
-                            <div class="timeline-content">
-                                <div class="timeline-date">Present</div>
-                                <h3>Building Something new</h3>
-                                <h4>Coming soon</h4>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-
-        <!-- Projects Section -->
+               <!-- Projects Section -->
         <section id="projects" class="section">
             <h2 class="section-title">Featured Projects</h2>
                 <div class="projects-grid">
@@ -196,76 +147,62 @@
                 </div>
             </div>
         </div>
-    </div>
-    <div class="view-all-projects">
-        <a href="projects.html" class="view-all-btn">
-            <span>View All Projects</span>
-            <i class="fas fa-arrow-right"></i>
-        </a>
+
+        <div class="project-card">
+            <div class="project-image">
+                <img src="assets/simple-calc.png" alt="Simple-Calc">
+                <div class="project-overlay">
+                    <div class="project-buttons">
+                        <a href="https://simple-calc-ashy.vercel.app/" class="project-btn" target="_blank" rel="noopener noreferrer">Live Preview</a>
+                        <a href="https://github.com/anzol83/simple-calc" class="project-btn" target="_blank" rel="noopener noreferrer">View Code</a>
+                    </div>
+                </div>
+                <div class="project-links">
+                    <a href="https://simple-calc-ashy.vercel.app/" class="project-btn" target="_blank" rel="noopener noreferrer">Live Preview</a>
+                    <a href="https://github.com/anzol83/simple-calc" class="project-btn" target="_blank" rel="noopener noreferrer">View Code</a>
+                </div>
+            </div>
+            <div class="project-info">
+                <h3>Simple Calc</h3>
+                <p>A simple calculator application that provides mathematical calculations.</p>
+                <div class="project-tech">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JavaScript</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="project-card">
+            <div class="project-image">
+                <img src="assets/clock.png" alt="Simple-Calc">
+                <div class="project-overlay">
+                    <div class="project-buttons">
+                        <a href="https://counter-clock.vercel.app/" class="project-btn" target="_blank" rel="noopener noreferrer">Live Preview</a>
+                        <a href="https://github.com/anzol83/Counter-Clock" class="project-btn" target="_blank" rel="noopener noreferrer">View Code</a>
+                    </div>
+                </div>
+                <div class="project-links">
+                    <a href="https://counter-clock.vercel.app/" class="project-btn" target="_blank" rel="noopener noreferrer">Live Preview</a>
+                    <a href="https://github.com/anzol83/Counter-Clock" class="project-btn" target="_blank" rel="noopener noreferrer">View Code</a>
+                </div>
+            </div>
+            <div class="project-info">
+                <h3>Counter Clock</h3>
+                <p>A simple and efficient counter clock to track time with ease.</p>
+                <div class="project-tech">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JavaScript</span>
+                </div>
+            </div>
+        </div>
+
     </div>
     </section>
 
-        <!-- Blogs Section -->
-        <section id="blogs" class="section">
-            <h2 class="section-title">Latest Articles</h2>
-            <div class="blogs-container">
-                <div class="blog-post">
-                    <div class="blog-date"><i class="fa-regular fa-calendar"></i> Feb 7, 2024</div>
-                    <h3 class="blog-title">How the Internet Works: A Beginner-Friendly Guide</h3>
-                    <p class="blog-excerpt">A comprehensive guide to understanding the fundamental concepts of how the internet functions...</p>
-                    <a href="https://medium.com/@angelneupane83/how-the-internet-works-a-beginner-friendly-guide-fc8ea25a1fb6" class="read-more" target="_blank" rel="noopener noreferrer">
-                        Read More <i class="fas fa-arrow-right"></i>
-                    </a>
-                </div>
-
-                <div class="blog-post">
-                    <div class="blog-date"><i class="fa-regular fa-calendar"></i> Nov 24, 2023</div>
-                    <h3 class="blog-title">My Experience on Learning About the History of the Web</h3>
-                    <p class="blog-excerpt">A journey through the evolution of the World Wide Web and its impact on modern technology...</p>
-                    <a href="https://medium.com/@angelneupane83/history-of-the-web-92c3d8ba6239" class="read-more" target="_blank" rel="noopener noreferrer">
-                        Read More <i class="fas fa-arrow-right"></i>
-                    </a>
-                </div>
-
-                <div class="blog-post">
-                    <div class="blog-date"><i class="fa-regular fa-calendar"></i> Dec 24, 2023</div>
-                    <h3 class="blog-title">The CSS Box Model: A Beginner's Guide</h3>
-                    <p class="blog-excerpt">Understanding the fundamental concept of CSS layout and how elements are structured on the web...</p>
-                    <a href="https://medium.com/@angelneupane83/understanding-the-css-box-model-a-beginners-guide-93376529c5a6" class="read-more" target="_blank" rel="noopener noreferrer">
-                        Read More <i class="fas fa-arrow-right"></i>
-                    </a>
-                </div>
-            </div>
-            <div class="view-all-blogs">
-                <a href="#" class="view-all-btn">
-                    <span>View All Articles</span>
-                    <i class="fas fa-arrow-right"></i>
-                </a>
-            </div>
-        </section>
-
-        <!-- Get In Touch Section -->
-        <section id="contact" class="section">
-            <h2 class="section-title">Get In Touch</h2>
-            <form id="contact-form" class="contact-form">
-                <div class="form-group">
-                    <input type="text" id="name" name="name" required placeholder="Your Name">
-                </div>
-                <div class="form-group">
-                    <input type="email" id="email" name="email" required placeholder="Your Email">
-                </div>
-                <div class="form-group">
-                    <input type="text" id="subject" name="subject" required placeholder="Subject">
-                </div>
-                <div class="form-group">
-                    <textarea id="message" name="message" required placeholder="Your Message"></textarea>
-                </div>
-                <button type="submit" class="submit-btn">Send Message</button>
-            </form>
-        </section>
     </main>
 
-    <!-- Footer Section -->
     <footer class="footer">
         <div class="footer-content">
             <div class="footer-info">
@@ -286,14 +223,6 @@
                     </a>
                 </div>
             </div>
-
-            <!-- Scroll to top button -->
-            <button id="goTopBtn" class="go-top-btn">
-                ↑
-              </button>
-              
-
-            <!--  Footer Section -->
             <div class="footer-bottom">
                 <p>&copy; 2024 Anzol Neupane. All rights reserved.</p>
             </div>
